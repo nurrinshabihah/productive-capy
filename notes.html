@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ProductiveCapy</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <meta charset="UTF-8">
+
+        <!---font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+        
+        <!---styles-->
+        <link rel="stylesheet" href="general.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="button.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="personal.css">
+        <link rel="stylesheet" href="notes.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    </head>
+    <body>
+        <header class="header">
+
+            <!---button -->
+            <div class="button">
+                <button class="logo" onclick="window.location.href='productivecapy.html';">...</button>
+                <button class="personal" onclick="window.location.href='personal.html';">Wellbeing</button>
+                <button class="study" onclick="window.location.href='study.html';">Study</button>
+                <button class="finance" onclick="window.location.href='finance.html';">Finance</button>  
+                <button class="health" onclick="window.location.href='health.html';">Health</button>   
+            </div>   
+        </header>
+
+        <main>
+            <!---homepage banner-->
+            <div class="banner-personal">
+                <h1>My Notes</h1>
+                <p>Keep all the important information here.</p>
+            </div>
+           
+            <!---navigation bar-->
+            <div class="nav-bar">
+                <a href="personal.html">Guide on better mental health</a>
+                <a href="todo.html">To-do list</a>
+                <a href="notes.html">My note</a>
+            </div>
+
+            <!---popup box-->
+            <div class="popup-box">
+                <div class="popup">
+                    <div class="content">
+                        <header>
+                            <p></p>
+                            <i class="uil uil-times"></i>
+                        </header>
+                        <form action="#">
+                            <div class="row-title">
+                                <label>Title</label>
+                                <input type="text" spellcheck="false">
+                            </div>
+                            <div class="row-description">
+                                <label>Write your notes here</label>
+                                <textarea spellcheck="false"></textarea>
+                            </div>
+                            <button></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!---add notes-->
+            <div class="wrapper">
+                    <li class="add-box">
+                        <div class="notes-icon">
+                        <i class="uil uil-plus"></i></div>
+                        <p>Add new note</p>
+                    </li>
+            </div>
+
+            <script src="notes.js"></script>
+        </main>
+
+        <footer class="footer">
+            <div class="copyright">© ProductiveCapy 2023</div>
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>ProductiveCapy</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <meta charset="utf-8">
+
+        <!---font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+        
+        <!---styles-->
+        <link rel="stylesheet" href="general.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="button.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="finance.css">
+        <link rel="stylesheet" href="tracker.css">
+
+    </head>
+
+    <body>
+      <header class="header">
+          <!---button -->
+          <div class="button">
+            <button class="logo" onclick="window.location.href='productivecapy.html';">...</button>
+            <button class="personal" onclick="window.location.href='personal.html';">Wellbeing</button>
+            <button class="study" onclick="window.location.href='study.html';">Study</button>
+            <button class="finance" onclick="window.location.href='finance.html';">Finance</button>  
+            <button class="health" onclick="window.location.href='health.html';">Health</button>   
+          </div> 
+      </header>
+ 
+      <main>
+
+          <!---homepage banner-->
+          <div class="banner-finance">
+              <h1>Manage your spending</h1>
+              <p>Spend your money wisely for a brighter future.</p>
+          </div>
+         
+          <!---navigation bar-->
+          <div class="nav-bar">
+              <a href="finance.html">Student discounts</a>
+              <a href="tips.html">Budgetting tips</a>
+              <a href="tracker.html">Spending tracker</a>
+          </div>
+
+          <!---expense tracker-->
+          <div class="content">
+            <h3 class="secondTitle">Add a new transaction: </h3>
+            <div class="form">
+              <form id="expForm">
+                <div class="formLine left">
+                  <label for="type">Type:</label>
+                  <select id="type">
+                    <option value="chooseOne">Choose one...</option>
+                    <option value="income">Income</option>
+                    <option value="expense">Expense</option>
+                  </select>
+                </div>
+                <div class="formLine right">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name">
+                </div>
+        
+                <div class="formLine right">
+                  <label for="amount">Amount:</label>
+                  <input type="text" id="amount">
+                </div>
+                <button type="submit" class="tracker-button">Add to transactions</button>
+              </form>
+            </div>
+          </div>
+          <div class="balance-box">
+              <h2 class="current-balance">Your Current Balance</h2>
+              <p>
+                <span class="currency">£</span>
+                <span class="balance"></span>
+              </p>
+          </div>
+          <div class="content">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Type</th>
+                  <th>Name</th>
+                  <th>Amount</th>
+                  <th>Options</th>
+                </tr>
+              </thead>
+              <tbody id="transactionTable"></tbody>
+            </table>
+          </div>
+      </main>
+
+      <script src="tracker.js"></script>
+
+      <footer class="footer">
+        <div class="copyright">© ProductiveCapy 2023</div>
+        <div class="links">
+            <a href="productivecapy.html">Home</a>
+            <a href="productivecapy.html">About</a>
+        </div>
+      </footer>
+    </body>
+</html>

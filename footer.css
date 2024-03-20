@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B85042;
+    padding: 40px 80px;
+}
+  
+  
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 60px;
+}
+  
+.links a {
+    text-decoration: none;
+    color: #E7E8D1;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.copyright {
+  color:#E7E8D1;
+}

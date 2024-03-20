@@ -1,0 +1,131 @@
+.button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 1150px;
+}
+
+.logo {
+    background: url(images/capybara-removebg-preview.png);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    cursor: pointer; 
+    border: none;              
+}
+
+.personal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+    background-color: #A7BEAE;
+    height: 50px;
+    width: 80px;
+    border-color: #A7BEAE;
+    border-radius: 10px;
+    border-style: solid;
+    color: #B85042;
+    transition: background-color 0.15s, color 0.15s;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.personal:hover {
+    background-color:#E7E8D1;
+    color: rgb(23, 51, 40);
+    border: none;
+}
+
+.personal:active {
+    background-color: #A7BEAE;
+    color: black;
+    border: none;
+}
+
+.study {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+    background-color: #A7BEAE;
+    height: 50px;
+    width: 80px;
+    border-color: #A7BEAE;
+    border-radius: 10px;
+    border-style: solid;
+    color: #B85042;
+    transition: background-color 0.15s, color 0.15s;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.study:hover {
+    background-color:#E7E8D1;
+    color: rgb(23, 51, 40);
+    border: none;
+}
+
+.study:active {
+    background-color: #A7BEAE;
+    color: black;
+    border: none;
+}
+
+.finance {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+    background-color: #A7BEAE;
+    height: 50px;
+    width: 80px;
+    border-color: #A7BEAE;
+    border-radius: 10px;
+    border-style: solid;
+    color: #B85042;
+    transition: background-color 0.15s, color 0.15s;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.finance:hover {
+    background-color: #E7E8D1;
+    color: rgb(23, 51, 40);
+    border: none;
+}
+
+.finance:active {
+    background-color: #A7BEAE;
+    color: black;
+    border: none;
+}
+.health {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+    background-color: #A7BEAE;
+    height: 50px;
+    width: 80px;
+    border-color: #A7BEAE;
+    border-radius: 10px;
+    border-style: solid;
+    color: #B85042;
+    transition: background-color 0.15s, color 0.15s;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.health:hover {
+    background-color:#E7E8D1;
+    color: rgb(23, 51, 40);
+    border: none;
+}
+
+.health:active {
+    background-color: #A7BEAE;
+    color: black;
+    border: none;
+}
